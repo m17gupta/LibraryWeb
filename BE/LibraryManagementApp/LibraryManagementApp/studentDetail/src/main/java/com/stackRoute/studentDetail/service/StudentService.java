@@ -15,4 +15,6 @@ public interface StudentService {
     public  abstract Student updateStudentData(Student student) throws StudentNotFound;
 
     public  abstract  boolean deleteStudentData(String studentId);
+
+    public abstract List<Student> search(String course,String branch, String semester);
 }

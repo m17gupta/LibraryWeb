@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="studentDetail (1)" />
+        <module name="joinStudentBook (1)" />
+        <module name="BookDetail (1)" />
+        <module name="Auth" />
+        <module name="joinStudentBook" />
+        <module name="Auth (1)" />
+        <module name="BookDetail" />
+        <module name="studentDetail" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Auth" target="17" />
+      <module name="Auth (1)" target="17" />
+      <module name="BookDetail" target="17" />
+      <module name="BookDetail (1)" target="17" />
+      <module name="joinStudentBook" target="17" />
+      <module name="joinStudentBook (1)" target="17" />
+      <module name="LibraryManagementApp" target="17" />
+      <module name="studentDetail" target="17" />
+      <module name="studentDetail (1)" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

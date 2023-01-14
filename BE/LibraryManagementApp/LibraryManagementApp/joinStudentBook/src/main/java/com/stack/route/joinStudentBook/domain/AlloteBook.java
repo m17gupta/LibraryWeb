@@ -1,7 +1,8 @@
 package com.stack.route.joinStudentBook.domain;
 
-
 import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -11,10 +12,9 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Data
 @Entity
-public class AllotedBookToStudent {
+public class AlloteBook {
     @Id
-    private String studentId;
-    private String name, fatherName,course, branch,year,semester;
-    private String bookId;
-    private String subjectName;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long bookId;
+    private String BookName;
 }

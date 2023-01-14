@@ -6,6 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.stream.Collectors;
+
 @Service
 public class BookServiceImpl implements BookService{
 
@@ -31,5 +33,14 @@ public class BookServiceImpl implements BookService{
           return bookRepository.save(studentBook);
        }
        else return null;
+    }
+
+    @Override
+    public List<StudentBook> searchBook(String course, String branch, String semester) {
+
+        List<StudentBook> bookList=bookRepository.findAll();
+        List<StudentBook> books= bookList.stream().filter(i->i.getCourse().equalsIgnoreCase(course))
+                .filter(i->i.getBranch().equalsIgnoreCase(branch)).filter(i->i.getSemester().equalsIgnoreCase(semester)).collect(Collectors.toList());
+        return books;
     }
 }

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Auth/Auth/Auth.iml" filepath="$PROJECT_DIR$/Auth/Auth/Auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LibraryManagementApp/LibraryManagementApp/Auth/Auth (1).iml" filepath="$PROJECT_DIR$/LibraryManagementApp/LibraryManagementApp/Auth/Auth (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/BE.iml" filepath="$PROJECT_DIR$/.idea/BE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BookDetail/BookDetail/BookDetail.iml" filepath="$PROJECT_DIR$/BookDetail/BookDetail/BookDetail.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LibraryManagementApp/LibraryManagementApp/BookDetail/BookDetail/BookDetail (1).iml" filepath="$PROJECT_DIR$/LibraryManagementApp/LibraryManagementApp/BookDetail/BookDetail/BookDetail (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/LibraryManagementApp/LibraryManagementApp/LibraryManagementApp.iml" filepath="$PROJECT_DIR$/LibraryManagementApp/LibraryManagementApp/LibraryManagementApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/joinStudentBook/joinStudentBook.iml" filepath="$PROJECT_DIR$/joinStudentBook/joinStudentBook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LibraryManagementApp/LibraryManagementApp/joinStudentBook/joinStudentBook (1).iml" filepath="$PROJECT_DIR$/LibraryManagementApp/LibraryManagementApp/joinStudentBook/joinStudentBook (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/studentDetail/studentDetail/studentDetail.iml" filepath="$PROJECT_DIR$/studentDetail/studentDetail/studentDetail.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LibraryManagementApp/LibraryManagementApp/studentDetail/studentDetail (1).iml" filepath="$PROJECT_DIR$/LibraryManagementApp/LibraryManagementApp/studentDetail/studentDetail (1).iml" />
+    </modules>
+  </component>
+</project>

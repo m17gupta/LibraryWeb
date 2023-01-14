@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Auth/Auth/pom.xml" />
+        <option value="$PROJECT_DIR$/BookDetail/BookDetail/pom.xml" />
+        <option value="$PROJECT_DIR$/studentDetail/studentDetail/pom.xml" />
+        <option value="$PROJECT_DIR$/joinStudentBook/pom.xml" />
+        <option value="$PROJECT_DIR$/LibraryManagementApp/LibraryManagementApp/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_18" default="true" project-jdk-name="18" project-jdk-type="JavaSDK" />
+</project>

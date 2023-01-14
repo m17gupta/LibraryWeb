@@ -32,4 +32,10 @@ public class StudentBookController {
     public ResponseEntity<?>updateBookData(@RequestBody StudentBook studentBook){
         return new ResponseEntity<>(bookService.updateBook(studentBook), HttpStatus.OK);
     }
+
+    //http://localhost:8883/studentBook-app/v3/search-book
+    @PostMapping("/search-book")
+    public ResponseEntity<?>searchBookData(@RequestBody StudentBook studentBook){
+        return new ResponseEntity<>(bookService.searchBook(studentBook.getCourse(),studentBook.getBranch(),studentBook.getSemester()), HttpStatus.OK);
+    }
 }

@@ -52,4 +52,9 @@ public class StudentController {
     public ResponseEntity<?> deleteStudentData(@PathVariable String studentId){
         return new ResponseEntity<>(studentService.deleteStudentData(studentId), HttpStatus.OK);
     }
+
+    @PostMapping("/search")
+    public ResponseEntity<?> searchStudent(@RequestBody Student student){
+        return new ResponseEntity<>(studentService.search(student.getCourse(),student.getBranch(),student.getSemester()),HttpStatus.OK);
+    }
 }

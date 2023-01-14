@@ -8,6 +8,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.stream.Collectors;
+
 @Service
 public class StudentServiceImpl implements StudentService{
 
@@ -49,5 +51,13 @@ public class StudentServiceImpl implements StudentService{
             return false;
         }
 
+    }
+
+    @Override
+    public List<Student> search(String course, String branch, String semester) {
+        List<Student> studentList= studentRepository.findAll();
+        List<Student> students=studentList.stream().filter(i->i.getCourse().equalsIgnoreCase(course))
+                .filter(i->i.getBranch().equalsIgnoreCase(branch)).filter(i->i.getSemester().equalsIgnoreCase(semester)).collect(Collectors.toList());
+        return students;
     }
 }
